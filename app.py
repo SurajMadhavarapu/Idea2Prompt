@@ -33,7 +33,7 @@ if st.button("Generate Prompt with AI"):
             # Run Ollama with mistral
             result = subprocess.run(
                 ["ollama", "run", "mistral"],
-                input=ai_prompt.encode("utf-8"),
+                input=ai_prompt,
                 capture_output=True,
                 text=True
             )
