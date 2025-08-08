@@ -18,8 +18,7 @@ if st.button("Generate Prompt with AI"):
         # AI instruction
         ai_prompt = f"""
         You are an AI prompt engineer.
-        Your task is to take the following instructions and examples,
-        and create a single clear and effective AI prompt.
+        Your Task is to  take the following user ideas and create a detailed, clear, and well-structured prompt. Include all relevant aspects, context, and specifics to fully capture the user's vision. Organize the information logically and enhance details where necessary to make the prompt complete and actionable.
 
         Instructions:
         {text_input}
